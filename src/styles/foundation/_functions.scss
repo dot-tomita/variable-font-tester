@@ -1,0 +1,10 @@
+// calc_vw
+@function vw($size) {
+  $rate: (100 / conf.$DefaultViewSize);
+  @return round_point($rate * $size) * 1vw;
+}
+
+// 小数点2桁まで含めて四捨五入
+@function round_point($num) {
+  @return (round($num * 10) / 10);
+}
