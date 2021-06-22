@@ -1,16 +1,22 @@
 <script lang="ts">
   import '../styles/app.scss';
-  import Header from '$lib/Header/index.svelte';
-  import Footer from '$lib/Footer/index.svelte';
+  import Header from '$lib/Header.svelte';
+  import Footer from '$lib/Footer.svelte';
+
+  import { theme } from '../stores/stores';
+
+  let isDarkTheme = $theme === 'dark';
 </script>
 
-<Header />
+<div class={isDarkTheme ? 'dark' : ''}>
+  <Header />
 
-<main>
-  <slot />
-</main>
+  <main>
+    <slot />
+  </main>
 
-<Footer />
+  <Footer />
+</div>
 
 <style lang="scss">
 </style>
