@@ -22,7 +22,11 @@
       >として設定中。<br
       />サンプル文章のh1〜3タグと太字（b,strongタグ）にした部分は見出しのweightで設定される。
     </p>
-    <TextBlock />
+    <TextBlock fontWeight={100} />
+    <TextBlock fontWeight={200} />
+    <TextBlock fontWeight={300} />
+    <TextBlock fontWeight={400} />
+    <TextBlock fontWeight={500} />
     <TextBlock fontWeight={600} />
     <TextBlock fontWeight={700} />
     <TextBlock fontWeight={800} />
