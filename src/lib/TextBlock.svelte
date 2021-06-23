@@ -1,7 +1,6 @@
 <script lang="ts">
   export let fontWeight = 500;
   import { sampleTextHtml } from '../stores/stores';
-  import TextConvert from './TextConvert.svelte';
 </script>
 
 <div

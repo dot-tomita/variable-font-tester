@@ -5,10 +5,9 @@
 
   import { theme } from '../stores/stores';
 
-  let isDarkTheme = $theme === 'dark';
 </script>
 
-<div class={isDarkTheme ? 'dark' : ''}>
+<div class={$theme === 'dark' ? 'dark' : ''}>
   <Header />
 
   <main>
