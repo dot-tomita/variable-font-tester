@@ -21,8 +21,12 @@ const config = {
       // default options are shown
       pages: 'build',
       assets: 'build',
-      fallback: null
-    })
+      fallback: null,
+    }),
+    paths: {
+      base: `/${process.env.npm_package_name}`,
+      assets: `/${process.env.npm_package_name}`
+    },
   }
 };
 
