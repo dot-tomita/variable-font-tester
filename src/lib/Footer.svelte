@@ -4,7 +4,7 @@
 
 <footer class="bg-gray-800 dark:bg-white w-full">
   <p class="w-4/12 mx-auto py-2 text-center text-white dark:text-black">
-    <a href="#" target="_blank" class="flex items-center justify-center mx-auto">
+    <a href="https://github.com/dot-tomita/variable-font-tester" target="_blank" class="flex items-center justify-center mx-auto">
       <i class="inline-block px-1"
         ><svg
           class="fill-current"

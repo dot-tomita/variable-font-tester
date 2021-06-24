@@ -8,7 +8,7 @@
   import MenuBtn from '../lib/MenuBtn.svelte';
   import Modal from '../lib/Modal.svelte';
 
-  let modalOpen = false;
+  $: modalOpen = false;
   const openModal = () => {
     modalOpen = true;
   }
