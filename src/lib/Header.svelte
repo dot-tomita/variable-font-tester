@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { page } from '$app/stores';
 </script>
 
 <header class="py-5 text-center w-full bg-gray-800 dark:bg-white">

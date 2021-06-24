@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { page } from '$app/stores';
 </script>
 
 <footer class="bg-gray-800 dark:bg-white w-full">
@@ -23,6 +22,4 @@
 </footer>
 
 <style lang="scss">
-  .link {
-  }
 </style>
