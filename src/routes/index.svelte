@@ -30,7 +30,7 @@
       デフォルトのfont-weightは<strong style="font-weight: {$defaultFontWeight};"
         >{$defaultFontWeight}</strong
       >として設定中。<br
-      />サンプル文章のh1〜3タグと太字（b,strongタグ）にした部分は見出しのweightで設定される。{modalOpen}
+      />サンプル文章のh1〜3タグと太字（b,strongタグ）にした部分は見出しのweightで設定される。
     </p>
     <TextBlock fontWeight={100} />
     <TextBlock fontWeight={200} />
